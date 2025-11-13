@@ -1,0 +1,73 @@
+/* Wrapper con gradiente de fondo */
+.register-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Contenedor del formulario */
+.register-container {
+  max-width: 350px;
+  background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(244, 247, 251) 100%);
+  border-radius: 40px;
+  padding: 25px 35px;
+  border: 5px solid rgb(255, 255, 255);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 30px 30px -20px;
+  margin: 20px;
+}
+
+/* Título */
+.register-heading {
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  color: rgb(16, 137, 211);
+  margin-bottom: 20px;
+}
+
+/* Formulario */
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Campo del formulario */
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Clase helper para ancho completo */
+.w-full {
+  width: 100%;
+}
+
+/* Mensajes de error */
+.error {
+  color: #ff4444;
+  font-size: 11px;
+  margin-left: 5px;
+  display: block;
+}
+
+/* Link de inicio de sesión */
+.register-agreement {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-agreement a {
+  text-decoration: none;
+  color: #0099ff;
+  font-size: 12px;
+}
+
+.register-agreement a:hover {
+  text-decoration: underline;
+}
