@@ -6,13 +6,13 @@ Proyecto desarrollado como Evaluación Final Integradora (EFI) para la materia P
 
 ## Integrantes del Equipo
 
-Facundo Puig: [text](https://github.com/facundo-puig)
+Facundo Puig: [https://github.com/facundo-puig](https://github.com/facundo-puig)
 
-Gonzalo Riva: [text](https://github.com/gonzalo-riv)
+Gonzalo Riva: [https://github.com/gonzalo-riv](https://github.com/gonzalo-riv)
 
 ## Enlace al Backend (API Flask)
 
-[text](https://github.com/facundo-puig/EFI-Miniblog-Flask)
+[https://github.com/facundo-puig/EFI-Miniblog-Flask](https://github.com/facundo-puig/EFI-Miniblog-Flask)
 
 ## Guía de Instalación y Ejecución
 
