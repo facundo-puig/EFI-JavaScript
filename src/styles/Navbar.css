@@ -1,0 +1,39 @@
+.p-menubar {
+    background: #1e1e1e;
+    border: none;
+    border-bottom: 1px solid #333;
+    padding: 1rem 2rem;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link {
+    color: #e0e0e0;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:hover {
+    background: #2a2a2a;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-icon {
+    color: #1976d2;
+}
+
+/* Estilos para los botones */
+.p-menubar .p-button {
+    background: #1976d2;
+    border-color: #1976d2;
+}
+
+.p-menubar .p-button:hover {
+    background: #1565c0;
+    border-color: #1565c0;
+}
+
+.p-menubar .p-button-outlined {
+    background: transparent;
+    color: #1976d2;
+    border-color: #1976d2;
+}
+
+.p-menubar .p-button-outlined:hover {
+    background: rgba(25, 118, 210, 0.1);
+}

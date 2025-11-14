@@ -1,4 +1,3 @@
-import { Button } from "primereact/button";
 import { useNavigate } from "react-router-dom";
 import "../styles/Home.css";
 
@@ -7,10 +6,9 @@ export default function Home() {
 
     return (
         <div className="home-container">
-            <h1>Bienvenido</h1>
-            <div className="home-buttons">
-                <Button label="Registrarse" onClick={() => navigate("/registrarse")} />
-                <Button label="Iniciar Sesión" onClick={() => navigate("/login")} />
+            <h1>Bienvenido al Miniblog</h1>
+            <div className="">
+                <p>Interactuá con otros usuarios</p>
             </div>
         </div>
     );

@@ -1,0 +1,290 @@
+/* Contenedor principal */
+.post-detail-container {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Estilo de las Cards - Mismo tema que PostList */
+.post-detail-container .p-card {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #e0e0e0;
+}
+
+.post-detail-container .p-card .p-card-title {
+    color: #e0e0e0;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.post-detail-container .p-card .p-card-content {
+    color: #b0b0b0;
+    padding: 0;
+}
+
+.post-detail-container .p-card .p-card-body {
+    padding: 0;
+}
+
+.post-detail-container .p-card .p-card-footer {
+    border-top: 1px solid #333;
+    background: transparent;
+    padding: 1rem 0;
+}
+
+/* Estados de carga y error */
+.loading-container,
+.not-found-container {
+    padding: 2rem;
+    text-align: center;
+    color: #e0e0e0;
+}
+
+.loading-container i {
+    font-size: 3rem;
+    color: #1976d2;
+}
+
+/* Header del post */
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.post-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+/* Contenido del post */
+.post-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    white-space: pre-wrap;
+    color: #b0b0b0;
+}
+
+.post-status {
+    margin-top: 1rem;
+}
+
+.post-updated {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #777;
+    font-style: italic;
+}
+
+/* Footer del post */
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #b0b0b0;
+}
+
+.post-author,
+.post-date {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.post-author i,
+.post-date i {
+    color: #999;
+}
+
+/* Tarjeta de comentarios */
+.comments-card {
+    margin-top: 2rem;
+}
+
+.comments-header {
+    margin-bottom: 1.5rem;
+}
+
+.comments-header h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0;
+    color: #e0e0e0;
+}
+
+.comments-header h3 i {
+    color: #1976d2;
+}
+
+/* Formulario de comentario */
+.comment-form {
+    margin-bottom: 2rem;
+}
+
+.comment-input {
+    margin-bottom: 1rem;
+}
+
+.comment-input .p-inputtextarea {
+    width: 100%;
+    background: #2a2a2a;
+    border: 1px solid #444;
+    color: #e0e0e0;
+}
+
+.comment-input .p-inputtextarea:focus {
+    border-color: #1976d2;
+    box-shadow: 0 0 0 0.2rem rgba(25, 118, 210, 0.2);
+}
+
+.comment-input .p-inputtextarea::placeholder {
+    color: #999;
+}
+
+/* Login prompt */
+.login-prompt {
+    padding: 1rem;
+    background: #2a2a2a;
+    border: 1px solid #444;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #b0b0b0;
+}
+
+.login-prompt i {
+    margin-right: 0.5rem;
+    color: #1976d2;
+}
+
+/* Estados de comentarios */
+.comments-loading,
+.comments-empty {
+    text-align: center;
+    padding: 2rem;
+    color: #b0b0b0;
+}
+
+.comments-empty {
+    color: #777;
+}
+
+.comments-loading i {
+    font-size: 2rem;
+    color: #1976d2;
+}
+
+.comments-empty i {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+/* Lista de comentarios */
+.comments-list {
+    /* Estilos base para la lista */
+}
+
+.comment-item {
+    padding: 1rem 0;
+}
+
+.comment-content {
+    flex: 1;
+}
+
+.comment-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.comment-meta strong {
+    color: #e0e0e0;
+}
+
+.comment-buttons {
+    display: flex;
+    gap: 0.25rem;
+}
+
+.comment-date {
+    margin-left: 0.5rem;
+    font-size: 0.85rem;
+    color: #777;
+}
+
+.comment-text {
+    margin: 0;
+    line-height: 1.6;
+    color: #b0b0b0;
+}
+
+/* Formulario de edición de comentario */
+.edit-comment-form {
+    margin-top: 0.5rem;
+}
+
+.edit-comment-form .p-inputtextarea {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    background: #2a2a2a;
+    border: 1px solid #444;
+    color: #e0e0e0;
+}
+
+.edit-comment-form .p-inputtextarea:focus {
+    border-color: #1976d2;
+    box-shadow: 0 0 0 0.2rem rgba(25, 118, 210, 0.2);
+}
+
+.edit-comment-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .post-detail-container {
+        padding: 1rem;
+    }
+
+    .post-header {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: stretch;
+    }
+
+    .post-actions {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .post-footer {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: flex-start;
+    }
+
+    .comment-meta {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .post-detail-container .p-card .p-card-title {
+        font-size: 1.4rem;
+    }
+}
+
+/* Divider personalizado para tema oscuro */
+.post-detail-container .p-divider {
+    border-top: 1px solid #444;
+}
